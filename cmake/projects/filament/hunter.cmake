@@ -9,7 +9,7 @@ hunter_add_version(
         PACKAGE_NAME
         filament
         VERSION
-        1.1.0
+        v1.1.0
         URL
         "https://github.com/JayBusch/filament/archive/filament-v1.1.0.tar.gz"
         SHA1
