@@ -1,0 +1,21 @@
+# !!! DO NOT PLACE HEADER GUARDS HERE !!!
+
+include(hunter_add_version)
+include(hunter_cacheable)
+include(hunter_download)
+include(hunter_pick_scheme)
+
+hunter_add_version(
+        PACKAGE_NAME
+        filament
+        VERSION
+        1.1.0
+        URL
+        "https://github.com/JayBusch/filament/archive/filament-v1.1.0.tar.gz"
+        SHA1
+        c724e0f8a4ebc95cf7ba628b89b998b3b3c2697d
+)
+
+hunter_pick_scheme(DEFAULT url_sha1_cmake)
+hunter_cacheable(filament)
+hunter_download(PACKAGE_NAME filament)
