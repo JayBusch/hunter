@@ -11,7 +11,7 @@ hunter_add_version(
         VERSION
         1.1.1
         URL
-        "https://github.com/JayBusch/filament/archive/v1.1.1.tar.gz"
+        "https://github.com/JayBusch/filament/archive/v1.1.2.tar.gz"
         SHA1
         84acfb33ef4813608710089f797e5391dca89b23
 )
