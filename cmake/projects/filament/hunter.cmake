@@ -9,11 +9,11 @@ hunter_add_version(
         PACKAGE_NAME
         filament
         VERSION
-        1.1.7
+        1.1.8
         URL
-        "https://github.com/JayBusch/filament/archive/v1.1.7.tar.gz"
+        "https://github.com/JayBusch/filament/archive/v1.1.8.tar.gz"
         SHA1
-        d3ef080b46e5c6d0aca93e906955faab7e172a02
+        b2ed5438bada1e00b505015433539cf60a77cb0a
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
