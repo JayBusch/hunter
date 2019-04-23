@@ -17,5 +17,5 @@ hunter_add_version(
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
-hunter_cacheable(robin_map)
-hunter_download(PACKAGE_NAME robin_map)
+hunter_cacheable(robin-map)
+hunter_download(PACKAGE_NAME robin-map)
